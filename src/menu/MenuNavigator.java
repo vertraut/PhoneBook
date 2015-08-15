@@ -1,14 +1,14 @@
+package menu;
+
 import java.util.Scanner;
 
 import static helpers.FileHelper.readFile;
 
 
-public class PhoneBook {
-
+public class MenuNavigator {
 
     public static void main(String[] args) {
-        PhoneBook book = new PhoneBook();
-        book.openMainMenu();
+        new MenuNavigator().openMainMenu();
     }
 
 
@@ -18,7 +18,18 @@ public class PhoneBook {
             System.out.println("Выберете действие:");
             System.out.println("1. Просмотр контактов");
             System.out.println("2. Добавление нового контакта");
-            switchMainMenu(read());
+            switch (read()) {
+                case 1:
+                    openContactListViewMenu();
+                    break;
+                case 2:
+                    openAddContact();
+                    break;
+                default:
+                    System.out.println("!!!Неверный ввод!!!");
+                    System.out.println("________________________");
+                    break;
+            }
         }
     }
 
@@ -27,7 +38,6 @@ public class PhoneBook {
         int a = 0;
         try {
             a = in.nextInt();
-
         } catch (Exception ex) {
 
             System.out.println("!!!Неверный ввод!!!");
@@ -36,22 +46,7 @@ public class PhoneBook {
         return a;
     }
 
-    private void switchMainMenu(int choice) {//переход по основному меню
-        switch (choice) {
-            case 1:
-                openContactListViewMenu();
-                break;
-            case 2:
-                addContact();
-                break;
-            default:
-                System.out.println("!!!Неверный ввод!!!");
-                System.out.println("________________________");
-                break;
-        }
-    }
-
-    private void addContact() {
+    private void openAddContact() {
         System.out.println("-== Добавление нового контакта ==-");
     }
 
@@ -66,28 +61,24 @@ public class PhoneBook {
             System.out.println("4. Поиск по контактам");
             System.out.println("5. В главное меню");
 
-            switchContactListViewMenu(read());
+            switch (read()) {
+                case 1:
+                    openContactListViewMenu();
+                    break;
+                case 2:
+                    break;
+                case 5:
+                    openMainMenu();
+
+                    break;
+                default:
+                    System.out.println("!!!Неверный ввод!!!");
+                    System.out.println("________________________");
+                    break;
+            }
         }
     }
 
-    private void switchContactListViewMenu(int choice) {//переход по меню просмотра телефонной книги
-        switch (choice) {
-            case 1:
-                openContactListViewMenu();
-                break;
-            case 2:
-                addContact();
-                break;
-            case 5:
-                openMainMenu();
-
-                break;
-            default:
-                System.out.println("!!!Неверный ввод!!!");
-                System.out.println("________________________");
-                break;
-        }
-    }
 
 
 }
