@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd5b8c0-8c41-4d04-b08d-b31b9fe1e91d" name="Default" comment="Added Contacl class.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helpers/FileHelper.java" />
+    <list default="true" id="1fd5b8c0-8c41-4d04-b08d-b31b9fe1e91d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PhoneBook.java" afterPath="$PROJECT_DIR$/src/PhoneBook.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,25 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PhoneBook.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PhoneBook.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PhoneBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.31344903">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
+                <element signature="e#1388#1389#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/helpers/FileHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46095446">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -90,8 +89,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/phoneBook.txt" />
         <option value="$PROJECT_DIR$/src/model/Contact.java" />
-        <option value="$PROJECT_DIR$/src/PhoneBook.java" />
         <option value="$PROJECT_DIR$/src/helpers/FileHelper.java" />
+        <option value="$PROJECT_DIR$/src/PhoneBook.java" />
       </list>
     </option>
   </component>
@@ -504,7 +503,7 @@
       <workItem from="1439326065444" duration="514000" />
       <workItem from="1439578474349" duration="921000" />
       <workItem from="1439664146707" duration="1801000" />
-      <workItem from="1439667276009" duration="3729000" />
+      <workItem from="1439667276009" duration="4093000" />
     </task>
     <task id="LOCAL-00001" summary="Added Contacl class.">
       <created>1439668531815</created>
@@ -512,11 +511,17 @@
       <option name="project" value="LOCAL" />
       <updated>1439668531815</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Extracted FileHelper from PhoneBook.">
+      <created>1439671068004</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1439671068004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10610000" />
+    <option name="totallyTimeSpent" value="10974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -561,7 +566,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Contacl class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Contacl class." />
+    <MESSAGE value="Extracted FileHelper from PhoneBook." />
+    <option name="LAST_COMMIT_MESSAGE" value="Extracted FileHelper from PhoneBook." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -580,8 +586,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,8 +598,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -604,8 +610,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,8 +629,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,23 +666,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PhoneBook.java">
+    <entry file="file://$PROJECT_DIR$/src/helpers/FileHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-          </folding>
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/FileHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/PhoneBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46095446">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="0.31344903">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

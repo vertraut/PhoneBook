@@ -6,13 +6,13 @@ import static helpers.FileHelper.readFile;
 public class PhoneBook {
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         PhoneBook book = new PhoneBook();
         book.openMainMenu();
     }
 
 
-    private void openMainMenu() throws Exception { //вывод меню
+    private void openMainMenu() { //вывод меню
         while (true) {
             System.out.println("-== Телефонная книга ==-");
             System.out.println("Выберете действие:");
@@ -36,7 +36,7 @@ public class PhoneBook {
         return a;
     }
 
-    private void switchMainMenu(int choice) throws Exception {//переход по основному меню
+    private void switchMainMenu(int choice) {//переход по основному меню
         switch (choice) {
             case 1:
                 openContactListViewMenu();
@@ -55,7 +55,7 @@ public class PhoneBook {
         System.out.println("-== Добавление нового контакта ==-");
     }
 
-    private void openContactListViewMenu() throws Exception { //вывод меню
+    private void openContactListViewMenu() { //вывод меню
         while (true) {
             System.out.println("-== Список контактов ==-");
             readFile();//вывод всех контактов
@@ -70,7 +70,7 @@ public class PhoneBook {
         }
     }
 
-    private void switchContactListViewMenu(int choice) throws Exception {//переход по меню просмотра телефонной книги
+    private void switchContactListViewMenu(int choice) {//переход по меню просмотра телефонной книги
         switch (choice) {
             case 1:
                 openContactListViewMenu();
