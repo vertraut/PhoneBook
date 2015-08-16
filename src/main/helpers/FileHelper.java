@@ -1,10 +1,10 @@
-package helpers;
+package main.helpers;
 
 import java.io.*;
 
 public class FileHelper {
 
-    private static final String FILE_NAME = "src\\phoneBook.txt";
+    private static final String FILE_NAME = "src\\resources\\phoneBook.txt";
 
     public static void readFile() { // чтение файла
         int num = 1;
