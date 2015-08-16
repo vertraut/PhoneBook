@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd5b8c0-8c41-4d04-b08d-b31b9fe1e91d" name="Default" comment="Improved gitignore.">
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\workspace.xml" afterPath="" />
+    <list default="true" id="1fd5b8c0-8c41-4d04-b08d-b31b9fe1e91d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhoneBook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +54,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36127508">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8640662">
+              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -590,7 +582,7 @@
       <workItem from="1439667276009" duration="5147000" />
       <workItem from="1439720613397" duration="1198000" />
       <workItem from="1439722234604" duration="108000" />
-      <workItem from="1439722727065" duration="150000" />
+      <workItem from="1439722727065" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="Added Contacl class.">
       <created>1439668531815</created>
@@ -628,11 +620,17 @@
       <option name="project" value="LOCAL" />
       <updated>1439721797948</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Removed ignored files">
+      <created>1439722894115</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1439722894115</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13512000" />
+    <option name="totallyTimeSpent" value="13538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -640,6 +638,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -654,7 +653,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -681,7 +679,8 @@
     <MESSAGE value="Removed unnecessary exceptions." />
     <MESSAGE value="Improved package structure. Moved txt file to resources folder. Created example of MenuPages usage." />
     <MESSAGE value="Improved gitignore." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved gitignore." />
+    <MESSAGE value="Removed ignored files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed ignored files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36127508">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8640662">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
           <folding />
         </state>
       </provider>
