@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd5b8c0-8c41-4d04-b08d-b31b9fe1e91d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="1fd5b8c0-8c41-4d04-b08d-b31b9fe1e91d" name="Default" comment="Improved gitignore.">
+      <change type="DELETED" beforePath="D:\Development\projects\PhoneBook\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="PhoneBook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +58,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87636364">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2890909">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -146,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/main/helpers/FileHelper.java" />
         <option value="$PROJECT_DIR$/src/main/menu/pages/MenuPages.java" />
         <option value="$PROJECT_DIR$/src/main/menu/MenuNavigator.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -288,6 +288,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhoneBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhoneBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -596,7 +610,7 @@
       <workItem from="1439578474349" duration="921000" />
       <workItem from="1439664146707" duration="1801000" />
       <workItem from="1439667276009" duration="5147000" />
-      <workItem from="1439720613397" duration="1023000" />
+      <workItem from="1439720613397" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="Added Contacl class.">
       <created>1439668531815</created>
@@ -622,11 +636,23 @@
       <option name="project" value="LOCAL" />
       <updated>1439721261313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Improved gitignore.">
+      <created>1439721690827</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1439721690827</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Improved gitignore.">
+      <created>1439721797948</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1439721797948</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13051000" />
+    <option name="totallyTimeSpent" value="13254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -674,7 +700,8 @@
     <MESSAGE value="Extracted FileHelper from PhoneBook." />
     <MESSAGE value="Removed unnecessary exceptions." />
     <MESSAGE value="Improved package structure. Moved txt file to resources folder. Created example of MenuPages usage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved package structure. Moved txt file to resources folder. Created example of MenuPages usage." />
+    <MESSAGE value="Improved gitignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved gitignore." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -853,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87636364">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2890909">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
         </state>
       </provider>
